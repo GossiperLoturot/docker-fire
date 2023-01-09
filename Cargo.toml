@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1"
+crossterm = "0.25"
+tui = "0.19"
