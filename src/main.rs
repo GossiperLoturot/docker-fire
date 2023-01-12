@@ -15,18 +15,17 @@ use crate::{
 fn main() -> Result<()> {
     let containers = get_containers()?;
 
-    let container = select_container(&containers)?;
+    if let Some(container) = select_container(&containers)? {
+        println!(
+            "starting container (image: {}, status: {}, names: {})",
+            container.get_image(),
+            container.get_status(),
+            container.get_names()
+        );
 
-    println!(
-        "starting container (image: {}, status: {}, names: {})",
-        container.get_image(),
-        container.get_status(),
-        container.get_names()
-    );
-
-    // コンテナを起動
-    let id = container.get_id();
-    start_container(id)?;
+        let id = container.get_id();
+        start_container(id)?;
+    }
 
     Ok(())
 }
