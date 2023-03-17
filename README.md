@@ -1,3 +1,6 @@
+[![Release](https://github.com/GossiperLoturot/docker-fire/actions/workflows/release.yml/badge.svg)](https://github.com/GossiperLoturot/docker-fire/actions/workflows/release.yml)
+[![Rust](https://github.com/GossiperLoturot/docker-fire/actions/workflows/rust.yml/badge.svg)](https://github.com/GossiperLoturot/docker-fire/actions/workflows/rust.yml)
+
 # docker-fire
 
 docker-fire makes easy to start docker container. When you excute docker-fire, it shows all docker containers and you can choise one you want to start.
