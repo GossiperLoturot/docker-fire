@@ -11,4 +11,4 @@ You download binary from [release page](https://github.com/GossiperLoturot/docke
 
 ## Afterword
 
-This application is wrapper of (Docker CLI)[https://github.com/docker/cli] and invokes a process of Docker CLI.
+This application is wrapper of [Docker CLI](https://github.com/docker/cli) and invokes a process of Docker CLI.
