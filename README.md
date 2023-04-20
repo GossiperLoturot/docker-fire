@@ -1,5 +1,7 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/GossiperLoturot/docker-fire)
 [![Release](https://github.com/GossiperLoturot/docker-fire/actions/workflows/release.yml/badge.svg)](https://github.com/GossiperLoturot/docker-fire/actions/workflows/release.yml)
 [![Rust](https://github.com/GossiperLoturot/docker-fire/actions/workflows/rust.yml/badge.svg)](https://github.com/GossiperLoturot/docker-fire/actions/workflows/rust.yml)
+![GitHub](https://img.shields.io/github/license/GossiperLoturot/docker-fire)
 
 # docker-fire
 
